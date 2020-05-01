@@ -1,0 +1,117 @@
+/*отключение двух блоков из 6*/
+@media only screen and (max-width : 1070px) {
+    .con3_1,
+    .con3_2 {
+        display: none;
+    } 
+}
+@media only screen and (max-width : 1050px) {
+  .wrapper-5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inst_show {
+    max-width: 100%;
+    width: 100%;
+  }
+  .wrapper5_1 {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .circle3_2 {
+    display: none;  
+  } 
+}
+@media only screen and (max-width : 1005px) {
+  .wrapper-11 {
+    flex-wrap: wrap;
+  }
+  
+}
+@media only screen and (max-width : 830px) {
+  .slider {
+    display: none;
+  }
+  .bot_picture {
+    background-image: none;
+    align-items: center;
+  }
+  .button_2 {
+    display: none;
+  }
+  .button_1 {
+    width: 35%;
+  }
+}
+@media only screen and (max-width : 840px) {
+  .exemple {
+    display: none;
+  }
+} 
+@media only screen and (max-width : 780px) {
+ .navf_3_bg {
+    display: none;
+  }
+} 
+@media only screen and (max-width : 848px) {
+    /*section-1*/
+      .top_bg {
+        display: flex;
+        justify-content: center;
+    }
+    .top_text p {
+        font-size: 56px;
+        max-width: 300px;
+    }
+}
+/*big picture*/
+@media only screen and (min-width : 848px) {
+    /*section-1*/
+
+    .top_picture {
+    margin-top: 140px;
+    background-position: center; 
+    background-image: url(../img/Character.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 290px;
+    background-size: contain;
+    }
+    .group_1 {
+    margin-top: -180px;
+    margin-left: -70px;
+    position: absolute;
+    width: 445px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-image: url(../img/Illustraation_icons.png);
+    }
+    .picture_bg {
+    width: 183px;
+    height: 183px;
+    background-repeat: no-repeat;
+    background-image: url(../img/Pattern.png);
+    }   
+}
+/*inst show*/
+@media only screen and (max-width : 770px) {
+    /*section-1*/
+
+   .inst_show {
+    display: none;
+   }
+}
+
+/*FAQ*/
+@media only screen and (max-width : 570px) {
+    /*section-1*/
+
+   .faq {
+    display: none;
+   }
+   .faq2 {
+    display: none;
+   }
+}
